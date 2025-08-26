@@ -1,9 +1,9 @@
 'use client'
 
 import {Header} from '@/features/shell'
-import MatchedList from '@/features/trade/matchedList/components/MatchedList'
 import {Paragraph} from '@/shared/ui'
 import {useMatchedListPage} from '../hooks/useMatchedListPage'
+import MatchedList from './MatchedList'
 
 const MatchedListClient = ({ticker}: {ticker: string}) => {
   const vm = useMatchedListPage(ticker)

@@ -1,4 +1,4 @@
-import MatchedListPage from '@/features/trade/matchedList/components/MatchedListPage'
+import MatchedListPage from '@/features/trade/matchedList/ui/MatchedListPage'
 
 const Page = async ({params}: {params: Promise<{ticker: string}>}) => {
   const ticker = (await params).ticker
